@@ -1,0 +1,7 @@
+Model Name,Test MSE,Train MSE,test_score,train_score,Best Parameters
+Linear Regression,708.2309130376882,25.436376069266107,-66.61041686472119,0.5479240164925804,{'regressor__fit_intercept': True}
+K Nearest Neighbours,64.51060547916266,5.548198609604733,-4.620016815922511,0.919196162717473,{'regressor__n_neighbors': 11}
+Support Vector Machine,29.542320519897686,5.94246051168273,-1.6399387233007432,0.9167516437891241,"{'regressor__estimator__kernel': 'rbf', 'regressor__estimator__gamma': 'scale', 'regressor__estimator__C': 10}"
+Random Forest Regressor,38.50846570742286,0.1389885927544547,-2.4038980603536055,0.9977785220725948,{'regressor__estimator__n_estimators': 200}
+AdaBoost Regressor,28.84325924371178,8.024766128930022,-1.5464082337303686,0.875440768042794,"{'regressor__estimator__n_estimators': 500, 'regressor__estimator__loss': 'linear', 'regressor__estimator__learning_rate': 0.2}"
+Gradient Boosting Regressor,39.23366196679503,0.32096993397379203,-2.470068243209469,0.994933278119511,"{'regressor__estimator__n_estimators': 800, 'regressor__estimator__learning_rate': 0.05}"

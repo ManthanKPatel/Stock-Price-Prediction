@@ -1,0 +1,5 @@
+- We have included 2 codes , one is Final_Project_Model_comparison and Another is Final_Project_CNNvsLSTM 
+- The csv files used as index data are S&P 500 historical data , Nasdaq historical data, Dow jones Industrial Average Historical data.
+- The target data is fetched from Try-3 csv.
+- We have included both .py & .ipynb files which runs on py37 & py38 (for Alphalens) environments.
+- We have also included .html executed files for reference.
